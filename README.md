@@ -4,7 +4,7 @@ This little project should ease the pain of building and maintaining a CV or ré
 
 Since I find writing LaTeX code tedious and error-prone, I've ported the whole thing to [pandoc](http://pandoc.org/). By doing this, I can keep the actual content of the CV in a yaml file for easier editing and updating, while the layout lives in a separate TeX file.
 
-This repository contains a modified version of Dario Taborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be well suited for everyone else.
+This repository contains a modified version of Dario Taborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be flexible enough for everyone.
 
 Take a look at [output.pdf](output.pdf) to see the final result.
 
@@ -28,7 +28,7 @@ Note: this template needs to be compiled with XeTeX.
 ## Available settings
 
 - **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work.
-- **`fontsize`**: Possible values are 10pt, 11pt and 12pt.
+- **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`geometry`**: This string sets margins and other parameters. Check out [this page](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how the `geometry` package works.
 
 ## Recommended reading
