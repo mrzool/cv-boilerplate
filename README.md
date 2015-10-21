@@ -6,7 +6,7 @@ Since I find writing LaTeX code tedious and error-prone, I keep the actual conte
 
 This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be flexible enough for everyone.
 
-Take a look at [output.pdf](output.pdf) to see the final result.
+Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
 
 ![preview](preview.jpg)
 
