@@ -1,0 +1,53 @@
+---
+# Personal details
+name: Friedrich Nietzsche
+address: |
+  | Humboldtstraße 36
+  | 99425 Weimar
+  | Prussia
+phone: "+49 03643 545400"
+email: friedrich@thevoid.de
+# Insert URLs without http://
+urls:
+- wki.pe/friedrich_nietzsche
+- twitter.com/tinynietzsche
+
+# Sections
+
+intro: "I know my fate. One day my name will be associated with the memory of something tremendous --- a crisis without equal on earth, the most profound collision of conscience, a decision that was conjured up against everything that had been believed, demanded, hallowed so far. I am no man, I am dynamite."
+
+skills:
+- Aesthetics, Ethics, Metaphysics, Nihilism
+- Psychology, Ontology, Poetry, Value theory
+- Voluntarism, Tragedy, Fact–value distinction
+- Anti-foundationalism, Philosophy of history
+
+experience:
+- years: 1879--1889
+  employer: Freiberufler
+  mansion: Freier Philisoph
+  city: Sils-Maria
+- years: 1869–-1879
+  employer: Universität Basel
+  mansion: Professor für klassische Philologie
+  city: Basel
+- years: 1867--1868
+  employer: Preußischen Artillerie
+  mansion: Kanonier
+  city: Naumburg
+
+education:
+- year: 1867
+  degree: Philology
+  institute: Leipzig Universität
+  city: Leipzig
+- year: 1864
+  degree: Abitur
+  institute: Schulpforta
+  city: Naumburg
+
+# Settings
+mainfont: Hoefler Text # Any font installed on your system should work
+fontsize: 10pt # possible values: 10pt, 11pt, 12pt
+geometry: a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in # See how the package geometry works at https://www.sharelatex.com/learn/Page_size_and_margins
+---

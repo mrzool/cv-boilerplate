@@ -1,0 +1,112 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[$fontsize$, a4paper]{article}
+\usepackage{fontspec} 
+
+% LAYOUT
+%--------------------------------
+\usepackage{geometry} 
+\geometry{$geometry$}
+\setlength\parindent{0in}
+
+\usepackage{multicol}
+\setlength{\columnsep}{-3.5cm}
+% No page numbers
+\pagenumbering{gobble}
+
+% TYPOGRAPHY
+%--------------------------------
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+% converts LaTeX specials (quotes, dashes etc.) to Unicode
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
+% \setmonofont[Scale=0.8]{$monofont$}
+% \setsansfont[Scale=0.9]{$sansfont$}
+
+% Custom ampersand
+\newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
+
+% MARGIN NOTES
+%--------------------------------
+\usepackage{marginnote}
+\newcommand{\note}[1]{\marginnote{\scriptsize #1}}
+\renewcommand*{\raggedleftmarginnote}{}
+\setlength{\marginparsep}{7pt}
+\reversemarginpar
+
+% HEADINGS
+%--------------------------------
+\usepackage{sectsty} 
+\usepackage[normalem]{ulem} 
+\sectionfont{\rmfamily\mdseries} 
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+
+% PDF SETUP
+%--------------------------------
+\usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={$name$'s Vita},pdfauthor={$name$}]{hyperref}  
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+
+
+% DOCUMENT
+%--------------------------------
+\begin{document}
+
+{\LARGE $name$}\\[.5cm]
+
+\begin{multicols}{2}
+
+$address$\\[.2cm]
+$phone$\\
+\href{mailto:$email$}{$email$}\\
+
+\columnbreak
+
+$for(urls)$
+\href{http://$urls$}{$urls$}\\
+$endfor$
+\end{multicols}
+
+\vfill
+% \bigskip
+
+
+% \hrule
+$intro$
+
+\subsection*{Areas of Interest}
+\begin{itemize}
+$for(skills)$
+\item $skills$
+$endfor$
+\end{itemize}
+
+\vfill
+%%\hrule
+\section*{Previous Experience}
+\noindent
+$for(experience)$
+\note{$experience.years$}\textsc{$experience.employer$}\\
+\emph{$experience.mansion$}\\
+$experience.city$\\[.2cm]
+$endfor$
+
+%\hrule
+\section*{Education}
+\noindent
+$for(education)$
+\note{$education.year$}$education.degree$\\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+
+$endfor$
+
+%\hrule
+
+%\vspace{1cm}
+\vfill{}
+%\hrulefill
+
+\end{document}
