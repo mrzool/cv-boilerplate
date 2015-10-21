@@ -1,6 +1,6 @@
 # CV/Résumé Boilerplate
 
-It contains a modified version of Dario Taborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be well suited for everyone else.
+This repository contains a modified version of Dario Taborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be well suited for everyone else.
 
 Since I find writing LaTeX tedious, I've ported the whole thing to [pandoc](http://pandoc.org/), abstracted the layout into a TeX file, and moved the content to a yaml file.
 
