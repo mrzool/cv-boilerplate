@@ -25,9 +25,9 @@ Note: this template needs to be compiled with XeTeX.
 
 ## Available settings
 
-- `**mainfont**`: Hoefler Text is the default, but every font installed in your system should work.
-- `**fontsize**`: Possible values are 10pt, 11pt and 12pt.
-- `**geometry**`: A string that sets the margins. Check out [this page](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how the package `geometry` works.
+- **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work.
+- **`fontsize`**: Possible values are 10pt, 11pt and 12pt.
+- **`geometry`**: A string that sets the margins. Check out [this page](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how the package `geometry` works.
 
 ## Recommended reading
 
