@@ -4,7 +4,7 @@ This little project should ease the pain of building and maintaining a CV or ré
 
 Since I find writing LaTeX code tedious and error-prone, I've ported the whole thing to [pandoc](http://pandoc.org/). By doing this, I can keep the actual content of the CV in a yaml file for easier editing and updating, while the layout lives in a separate TeX file.
 
-This repository contains a modified version of Dario Taborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be flexible enough for everyone.
+This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be flexible enough for everyone.
 
 Take a look at [output.pdf](output.pdf) to see the final result.
 
@@ -33,10 +33,10 @@ Note: this template needs to be compiled with XeTeX.
 
 ## Recommended reading
 
+- [Why I do my résumé in LaTeX](http://www.toofishes.net/blog/why-i-do-my-resume-latex/) by Dan McGee
+- [What are the benefits of writing resumes in TeX/LaTeX?](http://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex) on TeX Stack Exchange
+- [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex) by Dario Taraborelli
 - [Résumé advices](http://practicaltypography.com/resumes.html) from Butterick's Practical Typography 
-- [Why I do my résumé in LaTeX](http://www.toofishes.net/blog/why-i-do-my-resume-latex/)
-- [What are the benefits of writing resumes in TeX/LaTeX?](http://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex)
-- [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex) 
 
 ## License
 
