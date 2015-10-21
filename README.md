@@ -8,6 +8,8 @@ This repository contains a modified version of Dario Taraborelli's [cvtex](https
 
 Take a look at [output.pdf](output.pdf) to see the final result.
 
+![preview](preview.jpg)
+
 ## Dependencies
 
 1. LaTeX with the following extra packages: `fontspec` `geometry` `multicol` `xunicode` `xltxtra` `marginnote` `sectsty` `ulem` `hyperref`
