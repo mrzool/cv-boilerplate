@@ -2,7 +2,7 @@
 
 This little project should ease the pain of building and maintaining a CV or résumé using LaTeX.
 
-Since I find writing LaTeX code tedious and error-prone, I've ported the whole thing to [pandoc](http://pandoc.org/). By doing this, I can keep the actual content of the CV in a yaml file for easier editing and updating, while the layout lives in a separate TeX file.
+Since I find writing LaTeX code tedious and error-prone, I keep the actual content of the CV in a yaml file for easier editing and updating, while the layout lives in a separate TeX file. The amazing [pandoc](http://pandoc.org/) takes then care of wrapping everything together and compiling the PDF through LaTeX.
 
 This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be flexible enough for everyone.
 
