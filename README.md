@@ -12,7 +12,7 @@ Below a preview of the final result. Check out the [output](output.pdf) to see t
 
 ## Dependencies
 
-1. LaTeX with the following extra packages: `fontspec` `geometry` `multicol` `xunicode` `xltxtra` `marginnote` `sectsty` `ulem` `hyperref`
+1. LaTeX with the following extra packages: `fontspec` `geometry` `multicol` `xunicode` `xltxtra` `marginnote` `sectsty` `ulem` `hyperref` `polyglossia`
 2. pandoc
 
 To install LaTeX on Mac OS X, I recommend getting the smaller version BasicTeX from [here](https://tug.org/mactex/morepackages.html) and installing the additional packages with `tlmgr` afterwards. Same goes for Linux: install `texlive-base` with your package manager and add the needed additional packages later.
@@ -29,9 +29,10 @@ Note: this template needs to be compiled with XeTeX.
 
 ## Available settings
 
-- **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work.
+- **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work out of the box
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
-- **`geometry`**: This string sets margins and other parameters. Check out [this page](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how the `geometry` package works.
+- **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
+- **`geometry`**: Sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
 
 ## Recommended reading
 
