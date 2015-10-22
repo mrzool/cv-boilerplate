@@ -2,7 +2,6 @@
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass[$fontsize$, a4paper]{article}
-\usepackage{fontspec} 
 
 % LAYOUT
 %--------------------------------
@@ -15,8 +14,17 @@
 % No page numbers
 \pagenumbering{gobble}
 
+% LANGUAGE
+%--------------------------------
+$if(lang)$
+\usepackage{polyglossia}
+\setmainlanguage{$mainlang$}
+\setotherlanguages{$for(otherlang)$$otherlang$$sep$,$endfor$}
+$endif$
+
 % TYPOGRAPHY
 %--------------------------------
+\usepackage{fontspec} 
 \usepackage{xunicode}
 \usepackage{xltxtra}
 
