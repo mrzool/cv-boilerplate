@@ -102,11 +102,15 @@ $endfor$
 \section*{Education}
 \noindent
 $for(education)$
-\note{$education.year$}$education.degree$\\
+\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
-
 $endfor$
 
-\vfill{}
+$if(languages)$
+\section*{Languages}
+$for(languages)$
+\emph{$languages.language$} ($languages.proficiency$)\\
+$endfor$
+$endif$
 
 \end{document}
