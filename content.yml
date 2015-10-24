@@ -1,10 +1,10 @@
 ---
 # Personal details
 name: Friedrich Nietzsche
-address: |
-  | Humboldtstraße 36
-  | 99425 Weimar
-  | Prussia
+address:
+- Humboldtstraße 36
+- 99425 Weimar
+- Prussia
 phone: "+49 03643 545400"
 email: friedrich@thevoid.de
 # Insert URLs without http://

@@ -62,7 +62,10 @@ $endif$
 
 \begin{multicols}{2}
 
-$address$\\[.2cm]
+$for(address)$
+$address$\\
+$endfor$
+
 $phone$\\
 \href{mailto:$email$}{$email$}\\
 
