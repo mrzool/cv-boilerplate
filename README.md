@@ -60,7 +60,7 @@ Note: this template needs to be compiled with XeTeX.
 
 ## Available settings
 
-- **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work out of the box
+- **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work out of the box (thanks, XeTeX!).
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
 - **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
