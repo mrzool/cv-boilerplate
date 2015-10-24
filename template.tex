@@ -58,13 +58,15 @@ $endif$
 %--------------------------------
 \begin{document}
 
-{\LARGE $name$}\\[.5cm]
+{\LARGE $name$}\\[.2cm]
 
 \begin{multicols}{2}
 
 $for(address)$
 $address$\\
 $endfor$
+
+\vspace{-10pt}
 
 $phone$\\
 \href{mailto:$email$}{$email$}\\
@@ -76,7 +78,7 @@ $for(urls)$
 $endfor$
 \end{multicols}
 
-\vfill
+% \vfill
 
 $intro$
 
@@ -87,7 +89,7 @@ $for(skills)$
 $endfor$
 \end{itemize}
 
-\vfill
+% \vfill
 
 \section*{Previous Experience}
 \noindent
