@@ -12,7 +12,7 @@
 \usepackage{multicol}
 \setlength{\columnsep}{-3.5cm}
 % No page numbers
-\pagenumbering{gobble}
+% \pagenumbering{gobble}
 
 % LANGUAGE
 %--------------------------------
@@ -26,13 +26,9 @@ $endif$
 \usepackage{fontspec} 
 \usepackage{xunicode}
 \usepackage{xltxtra}
-
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
-% \setmonofont[Scale=0.8]{$monofont$}
-% \setsansfont[Scale=0.9]{$sansfont$}
-
 % Custom ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 
@@ -78,10 +74,7 @@ $endfor$
 \end{multicols}
 
 \vfill
-% \bigskip
 
-
-% \hrule
 $intro$
 
 \subsection*{Areas of Interest}
@@ -92,7 +85,7 @@ $endfor$
 \end{itemize}
 
 \vfill
-%%\hrule
+
 \section*{Previous Experience}
 \noindent
 $for(experience)$
@@ -101,7 +94,6 @@ $for(experience)$
 $experience.city$\\[.2cm]
 $endfor$
 
-%\hrule
 \section*{Education}
 \noindent
 $for(education)$
@@ -110,10 +102,6 @@ $for(education)$
 
 $endfor$
 
-%\hrule
-
-%\vspace{1cm}
 \vfill{}
-%\hrulefill
 
 \end{document}
