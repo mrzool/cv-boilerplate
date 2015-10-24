@@ -1,10 +1,41 @@
 # CV/Résumé Boilerplate
 
-This little project should ease the pain of building and maintaining a CV or résumé using LaTeX.
+A boilerplate to ease the pain of building and maintaining a CV or résumé using LaTeX.
 
-Since I find writing LaTeX code tedious and error-prone, I keep the actual content of the CV in a yaml file for easier editing and updating, while the layout lives in a separate TeX file. The amazing [pandoc](http://pandoc.org/) takes then care of wrapping everything together and compiling the PDF through LaTeX.
+Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for the yaml syntax due to its structured nature:
 
-This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template. The original is targeted to academics and scientist, while this one should be flexible enough for everyone.
+```YAML
+---
+name: Friedrich Nietzsche
+address:
+- Humboldtstraße 36
+- 99425 Weimar
+- Prussia
+phone: "+49 03643 545400"
+
+experience:
+- years: 1879--1889
+  employer: Freiberufler
+  job: Freier Philisoph
+  city: Sils-Maria
+- years: 1869–-1879
+  employer: Universität Basel
+  job: Professor für klassische Philologie
+  city: Basel
+```
+
+That makes super easy to update a CV while keeping a consistent structure.
+
+Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` by using a special notation. Iterating on repetitive data structures becomes trivial:
+
+```latex
+$for(experience)$
+$experience.years$\\
+\textsc{$experience.employer$}\\
+\emph{$experience.job$}\\
+$experience.city$\\[.2cm]
+$endfor$
+```
 
 Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
 
@@ -13,7 +44,7 @@ Below a preview of the final result. Check out the [output](output.pdf) to see t
 ## Dependencies
 
 1. LaTeX with the following extra packages: `fontspec` `geometry` `multicol` `xunicode` `xltxtra` `marginnote` `sectsty` `ulem` `hyperref` `polyglossia`
-2. pandoc
+2. Pandoc
 
 To install LaTeX on Mac OS X, I recommend getting the smaller version BasicTeX from [here](https://tug.org/mactex/morepackages.html) and installing the additional packages with `tlmgr` afterwards. Same goes for Linux: install `texlive-base` with your package manager and add the needed additional packages later.
 
@@ -32,7 +63,7 @@ Note: this template needs to be compiled with XeTeX.
 - **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work out of the box
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
-- **`geometry`**: Sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
+- **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
 
 ## Recommended reading
 
@@ -43,4 +74,6 @@ Note: this template needs to be compiled with XeTeX.
 
 ## License
 
-[CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template.
+
+License: [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
