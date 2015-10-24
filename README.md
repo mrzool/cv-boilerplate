@@ -30,10 +30,10 @@ Thanks to [pandoc](http://pandoc.org/), we can then access our data from `templa
 
 ```latex
 $for(experience)$
-$experience.years$\\
-\textsc{$experience.employer$}\\
-\emph{$experience.job$}\\
-$experience.city$\\[.2cm]
+  $experience.years$\\
+  \textsc{$experience.employer$}\\
+  \emph{$experience.job$}\\
+  $experience.city$\\[.2cm]
 $endfor$
 ```
 
@@ -58,11 +58,11 @@ To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux
 
 Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
 
-Note: this template needs to be compiled with XeTeX.
+**Note**: this template needs to be compiled with XeTeX.
 
 ## Available settings
 
-- **`mainfont`**: Hoefler Text is the default, but every font installed in your system should work out of the box (thanks, XeTeX!)
+- **`mainfont`**: Hoefler Text is the default, but every font installed on your system should work out of the box (thanks, XeTeX!)
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
 - **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
