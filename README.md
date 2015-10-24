@@ -11,8 +11,8 @@ address:
 - Humboldtstraße 36
 - 99425 Weimar
 - Prussia
-phone: "+49 03643 545400"
-
+email: friedrich@thevoid.de
+# ...
 experience:
 - years: 1879--1889
   employer: Freiberufler
