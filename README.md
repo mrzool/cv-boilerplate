@@ -4,7 +4,7 @@ A boilerplate to ease the pain of building and maintaining a CV or résumé usin
 
 ## Intro
 
-Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for the yaml syntax due to its structured nature:
+Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for a yaml file due to its structured nature:
 
 ```YAML
 ---
