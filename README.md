@@ -69,7 +69,7 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 - **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
 - **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
 
-## Recommended reading
+## Recommended readings
 
 - [Why I do my résumé in LaTeX](http://www.toofishes.net/blog/why-i-do-my-resume-latex/) by Dan McGee
 - [What are the benefits of writing resumes in TeX/LaTeX?](http://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex) on TeX Stack Exchange
