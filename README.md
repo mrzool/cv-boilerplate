@@ -1,6 +1,8 @@
 # CV Boilerplate
 
-A boilerplate to ease the pain of building and maintaining a CV or résumé using LaTeX.
+A boilerplate to ease the pain of building and maintaining a CV or résumé using LaTeX. The perfect companion to [letter-boilerplate](https://github.com/mrzool/letter-boilerplate).
+
+## Intro
 
 Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for the yaml syntax due to its structured nature:
 
