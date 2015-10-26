@@ -26,7 +26,7 @@ experience:
   city: Basel
 ```
 
-That makes super easy to update a CV while keeping a consistent structure.
+That makes super easy to update a CV while keeping a consistent structure. 
 
 Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
 
@@ -39,9 +39,11 @@ $for(experience)$
 $endfor$
 ```
 
-Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
+LaTeX takes then care of the typesetting with its usual elegance. Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
 
 ![preview](preview.jpg)
+
+With this method you can keep your entire CV encoded in a single yaml file, put it under version control (in a gist, for instance), and generate a PDF on the fly when needed. You can also easily convert it to other formats, like HTML for web publishing. Convenient, super portable and time-proof.
 
 ## Dependencies
 
