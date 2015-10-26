@@ -28,7 +28,7 @@ experience:
 
 That makes super easy to update a CV while keeping a consistent structure.
 
-Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` by using a special notation. Iterating on repetitive data structures becomes trivial:
+Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
 
 ```latex
 $for(experience)$
