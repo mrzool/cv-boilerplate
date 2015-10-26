@@ -76,6 +76,10 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 - [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex) by Dario Taraborelli
 - [Résumé advices](http://practicaltypography.com/resumes.html) from Butterick's Practical Typography 
 
+## See also
+
+- [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) — Quickly and painlessly generate high-quality letters from markdown through LaTeX
+
 ## License
 
 This repository contains a modified version of Dario Taraborelli's [cvtex](https://github.com/dartar/cvtex) template.

@@ -5,17 +5,23 @@
 
 % LAYOUT
 %--------------------------------
+% Margins
 \usepackage{geometry} 
 \geometry{$geometry$}
+
+% Do not indent paragraphs
 \setlength\parindent{0in}
 
+% Enable multicolumns
 \usepackage{multicol}
 \setlength{\columnsep}{-3.5cm}
-% No page numbers
+
+% Uncomment to suppress page numbers
 % \pagenumbering{gobble}
 
 % LANGUAGE
 %--------------------------------
+% Set the main language
 $if(lang)$
 \usepackage{polyglossia}
 \setmainlanguage{$lang$}
@@ -29,7 +35,7 @@ $endif$
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
 \defaultfontfeatures{Mapping=tex-text}
 \setromanfont [Ligatures={Common}, Numbers={OldStyle}]{$mainfont$}
-% Custom ampersand
+% Cool ampersand
 \newcommand{\amper}{{\fontspec[Scale=.95]{$mainfont$}\selectfont\itshape\&}}
 
 % MARGIN NOTES
@@ -52,7 +58,6 @@ $endif$
 %--------------------------------
 \usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={$name$'s Vita},pdfauthor={$name$}]{hyperref}  
 \hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
-
 
 % DOCUMENT
 %--------------------------------
@@ -82,7 +87,7 @@ $endfor$
 
 $intro$
 
-\subsection*{Areas of Interest}
+% \subsection*{Areas of Interest}
 \begin{itemize}
 $for(skills)$
 \item $skills$
