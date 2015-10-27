@@ -7,7 +7,7 @@ A boilerplate to ease the pain of building and maintaining a CV or résumé usin
 
 ## Intro
 
-Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for a yaml file due to its structured nature:
+Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
 
 ```YAML
 ---
@@ -46,7 +46,7 @@ LaTeX takes then care of the typesetting with its usual elegance. Below a previe
 
 ![preview](preview.jpg)
 
-With this method, you can keep your entire CV encoded in a single yaml file, put it under version control (into a gist, for instance), and generate a PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing. Convenient, portable and time-proof.
+With this method, you can keep your entire CV encoded in a single YAML file, put it under version control (into a gist, for instance), and generate a PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing. Convenient, portable and time-proof.
 
 ## Dependencies
 
