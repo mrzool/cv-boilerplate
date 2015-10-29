@@ -29,7 +29,7 @@ experience:
   city: Basel
 ```
 
-That makes super easy to update a CV while keeping a consistent structure. 
+That makes super easy to update a CV while keeping a consistent structure. If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a pretty good overview.
 
 Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
 
