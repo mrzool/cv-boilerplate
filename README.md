@@ -29,7 +29,7 @@ experience:
   city: Basel
 ```
 
-That makes super easy to update a CV while keeping a consistent structure. If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a pretty good overview.
+That makes super easy to update a CV while keeping a consistent structure.
 
 Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
 
@@ -80,6 +80,12 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 - [What are the benefits of writing resumes in TeX/LaTeX?](http://tex.stackexchange.com/questions/11955/what-are-the-benefits-of-writing-resumes-in-tex-latex) on TeX Stack Exchange
 - [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex) by Dario Taraborelli
 - [Résumé advices](http://practicaltypography.com/resumes.html) from Butterick's Practical Typography 
+
+# Resources
+
+-  If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a pretty good overview.
+- If you want to edit the template but LaTeX scares you, this [docs](https://www.sharelatex.com/learn/Main_Page) put together by ShareLaTeX cover most of the basics and are surprisingly kind to the beginner.
+- Odds are your question already has an answer on [TeX Stack Exchange](https://www.sharelatex.com/learn/Main_Page). Also, pretty friendly crowd in there.
 
 ## See also
 
