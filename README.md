@@ -81,7 +81,7 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 - [Typesetting your academic CV in LaTeX](http://nitens.org/taraborelli/cvtex) by Dario Taraborelli
 - [Résumé advices](http://practicaltypography.com/resumes.html) from Butterick's Practical Typography 
 
-# Resources
+## Resources
 
 -  If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a good overview.
 - If you want to edit the template but LaTeX scares you, this [docs](https://www.sharelatex.com/learn/Main_Page) put together by ShareLaTeX cover most of the basics and are surprisingly kind to the beginner.
