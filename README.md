@@ -89,6 +89,7 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 
 ## See also
 
+- [invoice-boilerplate](https://github.com/mrzool/invoice-boilerplate) — Simple automated LaTeX invoicing system
 - [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) — Quickly and painlessly generate high-quality letters from markdown through LaTeX
 
 ## License
