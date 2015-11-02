@@ -3,7 +3,7 @@
 > I consider LaTeX resumes to be a secret handshake of sorts, something that makes me significantly more likely to be inclined to hire a candidate.  
 > &mdash;<cite>[zackelan](https://news.ycombinator.com/item?id=10452606)<cite> on HN
 
-A boilerplate to ease the pain of building and maintaining a CV or résumé using LaTeX. The perfect companion to [letter-boilerplate](https://github.com/mrzool/letter-boilerplate).
+A boilerplate to ease the pain of building and maintaining a CV or résumé using LaTeX.
 
 ## Intro
 
