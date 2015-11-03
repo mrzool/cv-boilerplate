@@ -67,8 +67,6 @@ To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux
 3. Run `make` to compile the PDF.
 4. Tweak on `template.tex` until you're satisfied with the result.
 
-Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
-
 **Note**: this template needs to be compiled with XeTeX.
 
 ## Available settings
@@ -87,7 +85,8 @@ Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html
 
 ## Resources
 
--  If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a good overview.
+- Refer to [pandoc's documentation](http://pandoc.org/demo/example9/templates.html) to learn more about how templates work.
+- If you're not familiar with the YAML syntax, [here](http://learnxinyminutes.com/docs/yaml/)'s a good overview.
 - If you want to edit the template but LaTeX scares you, this [docs](https://www.sharelatex.com/learn/Main_Page) put together by ShareLaTeX cover most of the basics and are surprisingly kind to the beginner.
 - Odds are your question already has an answer on [TeX Stack Exchange](https://www.sharelatex.com/learn/Main_Page). Also, pretty friendly crowd in there.
 
