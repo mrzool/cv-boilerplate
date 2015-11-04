@@ -93,7 +93,7 @@ To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux
 ## See also
 
 - [invoice-boilerplate](https://github.com/mrzool/invoice-boilerplate) — Simple automated LaTeX invoicing system
-- [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) — Quickly and painlessly generate high-quality letters from markdown through LaTeX
+- [letter-boilerplate](https://github.com/mrzool/letter-boilerplate) — Typeset your important letters without leaving your text editor
 
 ## License
 
