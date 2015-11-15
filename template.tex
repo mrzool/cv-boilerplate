@@ -57,7 +57,18 @@ $endif$
 % PDF SETUP
 %--------------------------------
 \usepackage[xetex, bookmarks, colorlinks, breaklinks, pdftitle={$name$'s Vita},pdfauthor={$name$}]{hyperref}  
-\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=blue} 
+\hypersetup
+{
+  pdfauthor={$author$},
+  pdfsubject={$author$'s CV},
+  pdftitle={$author$'s CV},
+  colorlinks,breaklinks,
+  filecolor=black,
+  urlcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  linkcolor=[rgb]{0.117,0.682,0.858},
+  citecolor=[rgb]{0.117,0.682,0.858}
+}
 
 % DOCUMENT
 %--------------------------------
