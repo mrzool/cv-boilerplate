@@ -1,4 +1,4 @@
-output.pdf : template.tex content.yml
+output.pdf : template.tex details.yml
 	pandoc $(filter-out $<,$^ ) -o $@ --latex-engine=xelatex --template=$<
 
 clean :
