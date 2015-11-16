@@ -65,7 +65,9 @@ $endif$
 
 {\LARGE $name$}\\[.2cm]
 
+$if(urls)$
 \begin{multicols}{2}
+$endif$
 
 $for(address)$
 $address$\\
@@ -76,25 +78,34 @@ $endfor$
 $phone$\\
 \href{mailto:$email$}{$email$}\\
 
+
+$if(urls)$
 \columnbreak
 
 $for(urls)$
 \href{http://$urls$}{$urls$}\\
 $endfor$
 \end{multicols}
+$endif$
 
-% \vfill
+\vspace{30pt}
 
+$if(intro)$
 $intro$
+$endif$
 
-\subsection*{Areas of Interest}
+% \subsection*{Areas of Interest}
+$if(skills)$
 \begin{itemize}
-$for(skills)$
-\item $skills$
-$endfor$
+    $for(skills)$
+      \item $skills$
+    $endfor$
 \end{itemize}
+$endif$
 
 % \vfill
+
+\vspace{25pt}
 
 \section*{Previous Experience}
 \noindent
@@ -104,12 +115,14 @@ $for(experience)$
 $experience.city$\\[.2cm]
 $endfor$
 
+$if(education)$
 \section*{Education}
 \noindent
 $for(education)$
 \note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
 \emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
 $endfor$
+$endif$
 
 $if(languages)$
 \section*{Languages}

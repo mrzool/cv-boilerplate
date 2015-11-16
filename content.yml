@@ -50,5 +50,5 @@ education:
 mainfont: Hoefler Text
 fontsize: 10pt
 lang: English
-geometry: a4paper, textwidth=5.5in, textheight=8.5in, marginparsep=7pt, marginparwidth=.6in
+geometry: a4paper, left=35mm, right=35mm, top=51mm, bottom=17mm
 ---
