@@ -61,7 +61,7 @@ To install pandoc on Mac OS X, run `brew install pandoc`. To install it on Linux
 
 1. Run this in your terminal to clone the repo, move into the right directory and delete all the git stuff:
 
-        git clone git@github.com:mrzool/cv-boilerplate.git && cd cv-boilerplate && rm -rf .git
+        git clone https://github.com/mrzool/cv-boilerplate.git && cd cv-boilerplate && rm -rf .git
 
 2. Open `details.yml` with your text editor and fill it with your personal details, work experience, education, and desired settings.
 3. Run `make` to compile the PDF.
