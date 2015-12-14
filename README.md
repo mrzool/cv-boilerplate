@@ -51,7 +51,7 @@ With this method, you can keep your entire CV encoded in a single YAML file, put
 ## Dependencies
 
 1. LaTeX with the following extra packages: `fontspec` `geometry` `multicol` `xunicode` `xltxtra` `marginnote` `sectsty` `ulem` `hyperref` `polyglossia`
-2. Pandoc
+2. [Pandoc](http://pandoc.org/), a universal document converter.
 
 To install LaTeX on Mac OS X, I recommend getting the smaller version BasicTeX from [here](https://tug.org/mactex/morepackages.html) and installing the additional packages with `tlmgr` afterwards. Same goes for Linux: install `texlive-base` with your package manager and add the needed additional packages later.
 
