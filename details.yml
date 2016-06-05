@@ -46,6 +46,7 @@ education:
   institute: Schulpforta
   city: Naumburg
 
+# Phase sections out as needed prefixing them with '#'
 teaching:
 - year: 1870
   title: Classical Philogoy
