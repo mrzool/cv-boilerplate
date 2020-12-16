@@ -21,7 +21,7 @@ email: friedrich@thevoid.de
 experience:
 - years: 1879--1889
   employer: Freiberufler
-  job: Freier Philisoph
+  job: Freier Philosoph
   city: Sils-Maria
 - years: 1869–-1879
   employer: Universität Basel
