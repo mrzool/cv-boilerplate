@@ -7,7 +7,7 @@ A boilerplate to ease the pain of building and maintaining a CV or résumé usin
 
 ## Intro
 
-Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
+The Separation of content from presentation is considered an universal best practice. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
 
 ```YAML
 ---
@@ -71,7 +71,7 @@ Although I didn't test it, you can probably use this on Windows, too. Both [Pand
 
 ## Available settings
 
-- **`mainfont`**: Hoefler Text is the default, but every font installed on your system should work out of the box (thanks, XeTeX!)
+- **`mainfont`**: Hoefler Text is the default, but every font installed on your system should work out of the box thanks to XeTeX.
 - **`fontsize`**: Possible values here are 10pt, 11pt and 12pt.
 - **`lang`**: Sets the main language through the `polyglossia` package. This is important for proper hyphenation, among other things.
 - **`geometry`**: A string that sets the margins through `geometry`. Read [this](https://www.sharelatex.com/learn/Page_size_and_margins) to learn how this package works.
