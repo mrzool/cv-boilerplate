@@ -7,7 +7,7 @@ A boilerplate to ease the pain of building and maintaining a CV or résumé usin
 
 ## Intro
 
-The separation of content from presentation is considered an universal best practice. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
+The separation of content from presentation is considered a universal best practice. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
 
 ```YAML
 ---
