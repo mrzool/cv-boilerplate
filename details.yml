@@ -46,6 +46,27 @@ education:
   institute: Schulpforta
   city: Naumburg
 
+# Phase sections out as needed prefixing them with '#'
+teaching:
+- year: 1870
+  title: Classical Philogoy
+  institute: Universität Basel
+  city: Basel
+- year: 1869
+  title: Philosophy
+  institute: Gymnasium am Münsterplatz
+  city: Basel
+
+honors:
+- year: 1885
+  title: Knight of the Order
+  institute: Order of the Expelled
+  city: London
+- year: 1880
+  title: President
+  institute: Association of Nietzschean Philosophy
+  city: Basel
+
 # Settings
 mainfont: Hoefler Text
 fontsize: 10pt

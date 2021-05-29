@@ -6,7 +6,7 @@
 % LAYOUT
 %--------------------------------
 % Margins
-\usepackage{geometry} 
+\usepackage{geometry}
 \geometry{$geometry$}
 
 % Do not indent paragraphs
@@ -17,7 +17,7 @@
 \setlength{\columnsep}{-3.5cm}
 
 % Uncomment to suppress page numbers
-% \pagenumbering{gobble}
+\pagenumbering{gobble}
 
 % LANGUAGE
 %--------------------------------
@@ -29,7 +29,7 @@ $endif$
 
 % TYPOGRAPHY
 %--------------------------------
-\usepackage{fontspec} 
+\usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
 % converts LaTeX specials (quotes, dashes etc.) to Unicode
@@ -48,11 +48,11 @@ $endif$
 
 % HEADINGS
 %--------------------------------
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
-\sectionfont{\rmfamily\mdseries} 
-\subsectionfont{\rmfamily\mdseries\scshape\normalsize} 
-\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize} 
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
+\sectionfont{\rmfamily\mdseries}
+\subsectionfont{\rmfamily\mdseries\scshape\normalsize}
+\subsubsectionfont{\rmfamily\bfseries\upshape\normalsize}
 
 % PDF SETUP
 %--------------------------------
@@ -118,6 +118,15 @@ $endif$
 
 \vspace{25pt}
 
+$if(education)$
+\section*{Education}
+\noindent
+$for(education)$
+\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
+\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+$endfor$
+$endif$
+
 \section*{Previous Experience}
 \noindent
 $for(experience)$
@@ -126,12 +135,23 @@ $for(experience)$
 $experience.city$\\[.2cm]
 $endfor$
 
-$if(education)$
-\section*{Education}
+$if(teaching)$
+\section*{Teaching}
 \noindent
-$for(education)$
-\note{$education.year$}\textbf{$education.subject$}$if(education.degree)$, $education.degree$$endif$\\
-\emph{$education.institute$}$if(education.city)$, $education.city$$endif$\\[.2cm]
+$for(teaching)$
+\note{$teaching.year$}\textsc{$teaching.institute$}\\
+\emph{$teaching.title$}\\
+$teaching.city$\\[.2cm]
+$endfor$
+$endif$
+
+$if(honors)$
+\section*{Honors}
+\noindent
+$for(honors)$
+\note{$honors.year$}\textsc{$honors.institute$}\\
+\emph{$honors.title$}\\
+$honors.city$\\[.2cm]
 $endfor$
 $endif$
 
